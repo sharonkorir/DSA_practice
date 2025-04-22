@@ -1,8 +1,8 @@
-class Solution(object):
-    def merge(self, nums1, m, nums2, n):
-        total_len = m + n
-        for i in range(0, n):
-            nums1.insert(i, nums2[i])
-            nums1.pop()
+class Solution:
+    def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
+        """
+        Do not return anything, modify nums1 in-place instead.
+        """
+        total_len = len(nums1)
+        nums1[m:total_len] = nums2
         nums1.sort()
-    

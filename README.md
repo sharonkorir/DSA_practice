@@ -6,9 +6,7 @@ Repository for Data Structures and Algorithms (DSA) practice, focusing on LeetCo
 
 Track and improve DSA skills, with an emphasis on array problems.
 
-## LeetCode Progress
 
-![LeetCode Stats](https://leetcard.jacoblin.cool/csharonkorir?theme=dark&font=IBM%20Plex%20Sans&ext=heatmap)
 
 ## Structure
 
